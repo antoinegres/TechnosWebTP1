@@ -3,22 +3,50 @@
     <head>
         <meta charset=utf-8>
         <title> Antoine GRÈS </title>
+        
+        <style> 
+            body{
+                background-color: lightsteelblue;
+            }
+            h1 {
+                color: navy;
+                font-family: cursive;
+                font-variant: normal;
+                font-style: normal;
+            }
+            h3 {
+                color: darkslateblue; 
+                font-family: inherit;
+                text-decoration: underline;
+            } 
+            
+            h4 {
+                color: darkslateblue; 
+                font-family: inherit;
+            } 
+            
+        </style>
+        
     </head>
     <body>
         <center><h1>Antoine GRÈS</h1></center>
         <header> 
-            <center><h3>Étudiant ingénieur à l'ECE Paris</h3></center>
-            </header>
+            <center><h4>Étudiant ingénieur à l'ECE Paris</h4>
+                <img src="pp.jpg" alt="" width="500" >
+            </center>
+        </header>
+        <center>
         <nav class="menu">
             <ul>
-                <li><a href="#Expériences Professionelles">Expériences Professionelles</a></li>
+                <li><a href="#exp">Expériences Professionelles</a></li>
                 <li><a href="#Formations">Formations</a></li>
                 <li><a href="#Réalisation Projets Scolaires">Réalisation Projets Scolaires</a></li>
                 <li><a href="#Centres d'intérêts">Centres d'intérêts</a></li>
             </ul>
         </nav>
+        </center>
         <main>
-            <section>
+            <section id="exp">
                 <h3>Expériences Professionelles</h3>
                 <xl>
                     <li> Chef de projet chez JEECE </li>
@@ -46,7 +74,6 @@
                     <br><br>
                     <input type="submit" value="Submit">
                 </form> 
-                <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
             </section>
         </main>
     </body>
