@@ -3,16 +3,90 @@
     <head>
         <meta charset=utf-8>
         <title> Antoine GRÈS </title>
+        <!--
+        <div class="social">
+          <div class="social__item">
+            <span class="fa fa-linkedin" data-count="..." data-social="ln"></span>
+          </div>
+        </div>
+        -->
         
+        <center>
+            <h1>Antoine GRÈS</h1>
+            <div class="typewriter">
+                <h4>Étudiant ingénieur à l'ECE Paris.</h4>
+            </div>
+        </center>
+        <header>
+            <center>
+                <style type="text/css">
+                .roundedImage{
+                    overflow: hidden;
+                    border-radius:300px;
+                    width:549px;
+                    height:540px;
+                }
+                </style>
+                <div class="roundedImage">
+                    <img src="pp.jpg"/>
+                </div>
+                <style>
+
+        .topnav {
+            position: sticky; 
+            margin-top: 40px;
+          overflow: hidden;
+          background-color: #007bb6;
+        }
+
+        .topnav a {
+          float: center;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        }
+        </style>
+        </head>
+            
+        <body>
+
+        <div class="topnav">
+          <a href="#exp">Expériences Professionelles</a>
+          <a href="#forma">Formations</a>
+          <a href="#projets">Réalisation Projets</a>
+          <a href="#hobbi">Centres d'intérêts</a>
+        </div>
+
+
+            </center>
+        </header>
         <style> 
             body{
                 background-color: lightsteelblue;
+                  color: #333;
+                  font: normal 16px/1.5 Roboto, sans-serif;
+                  text-align: center;
             }
             h1 {
                 color: navy;
-                font-family: cursive;
+                font-family: inherit;
                 font-variant: normal;
                 font-style: normal;
+                
+            /*    
+              padding-top: 5em;
+              display: flex;
+              justify-content: center;
+            */
             }
             h3 {
                 color: darkslateblue; 
@@ -22,30 +96,143 @@
             
             h4 {
                 color: darkslateblue; 
-                font-family: inherit;
+                font-family: cursive;
             } 
+            
+            /*
+            @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+            $colors: (
+              linkedin: #007bb6,
+            );
+
+            .social {
+              margin: 20px 0 40px;
+              text-align: center;
+              &__item {
+                display: inline-block;
+                margin: 10px;
+              }
+              .fa {
+                background: #007bb6;
+                border-radius: 35px;
+                color: #eee;
+                cursor: pointer;
+                display: block;
+                font-size: 30px;
+                height: 70px;
+                line-height: 70px;
+                position: relative;
+                text-align: center;
+                transition: all .5s;
+                width: 70px;
+              }
+              @each $key, $color in $colors {
+                .fa-#{$key}:hover {
+                  box-shadow: 0 0 
+                    100000px rgba(#eee, 0.5) inset;
+
+                  color: #007bb6;
+                }
+              }
+            }
+            */
+
+            /* DEMO-SPECIFIC STYLES */
+            .typewriter h4 {
+                text-align: center;
+              color: darkslateblue;
+              font-family: cursive;
+              overflow: hidden; 
+              border-right: .15em solid #eee ; 
+              white-space: nowrap; 
+              letter-spacing: .15em; 
+              animation: 
+                typing 3s steps(30, end),
+                blink-caret .5s;
+            }
+
+            /* The typing effect */
+            @keyframes typing {
+              from { width: 0 }
+              to { width: 24em}
+            }
+
+            /* The typewriter cursor effect */
+            @keyframes blink-caret {
+              from, to { border-color: transparent }
+              10% { border-color: #eee }
+            }
             
         </style>
         
     </head>
     <body>
-        <center><h1>Antoine GRÈS</h1></center>
-        <header> 
-            <center><h4>Étudiant ingénieur à l'ECE Paris</h4>
-                <img src="pp.jpg" alt="" width="500" >
-            </center>
-        </header>
-        <center>
-        <nav class="menu">
-            <ul>
-                <li><a href="#exp">Expériences Professionelles</a></li>
-                <li><a href="#Formations">Formations</a></li>
-                <li><a href="#Réalisation Projets Scolaires">Réalisation Projets Scolaires</a></li>
-                <li><a href="#Centres d'intérêts">Centres d'intérêts</a></li>
-            </ul>
-        </nav>
-        </center>
         <main>
+            <style>
+                h3{
+                    text-align: center;
+                }
+                #exp{
+                    float:right;
+                    background: #eee;
+                    text-align: left;
+                    width: 487px;
+                    margin-bottom: 15px;
+                    }
+                #forma{
+                    float:right;
+                    background: #eef;
+                    text-align: left;
+                    width: 487px;
+                    margin-bottom: 15px;
+                    }
+                #projets{
+                    float:right;
+                    background: #eaa;
+                    text-align: left;
+                    width: 487px;
+                    margin-bottom: 15px;
+                    }
+                #hobbi{
+                    float:right;
+                    background: #abb;
+                    text-align: left;
+                    width: 487px;
+                    margin-bottom: 15px;
+                    
+                    }
+                #info{
+                        background: #bbb;
+                        width: 250px;
+                        text-align: left;
+                        margin-bottom: 15px;
+                        
+                    }
+                #langue{
+                        background: #bbc;
+                        width: 250px;
+                        margin-bottom: 15px;
+                        text-align: left;
+                        
+                    }
+                #visit{
+                        background: #aac;
+                        width: 250px;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        
+                    }
+                #contact{
+                    font-family: monospace;
+                    font-size: 14px;
+                        background: LIGHTSLATEGRAY;
+                        width:  250px;
+                        text-align:left;
+                    margin-bottom: 15px;
+                    
+                    }
+            </style>
             <section id="exp">
                 <h3>Expériences Professionelles</h3>
                 <xl>
@@ -55,14 +242,52 @@
                     <p> Athlete est le terme de vendeur chez Nike, fonction que j'exerce au Nike Store de La Défense.</p>
                 </xl>
             </section>
-            <section>
+            <section id="forma">
                 <h3>Formations</h3>
                 <xl>
                     <li> ECE Paris </li>
                     <p> L'ECE Paris est une école d'ingénieur généraliste du numérique.</p>
                 </xl>
             </section>
-            <section>
+            <section id="projets">
+                <h3>Réalisation projets scolaires</h3>
+                <xl>
+                    <li> ECE Paris </li>
+                    <p> L'ECE Paris est une école d'ingénieur généraliste du numérique.</p>
+                </xl>
+            </section>
+            <section id="hobbi">
+                <h3>Centre d'intérêt</h3>
+                <xl>
+                    <li> ECE Paris </li>
+                    <p> L'ECE Paris est une école d'ingénieur généraliste du numérique.</p>
+                </xl>
+            </section>
+            <section id="contact">
+                <h3>Contact Personel</h3>
+                <xl>
+                    <li> 06 04 05 59 33 </li>
+                    <li> gres.antoine@gmail.com</li>
+                    <li> 2 rue Ampère, 92800, Puteaux</li>
+                </xl>
+            </section>
+            <section id="langue">
+                <h3>Langues</h3>
+                <xl>
+                    <li> 06 04 05 59 33 </li>
+                    <li> gres.antoine@gmail.com</li>
+                    <li> 2 rue Ampère, 92800, Puteaux</li>
+                </xl>
+            </section>
+            <section id="info">
+                <h3>Informatique</h3>
+                <xl>
+                    <li> 06 04 05 59 33 </li>
+                    <li> gres.antoine@gmail.com</li>
+                    <li> 2 rue Ampère, 92800, Puteaux</li>
+                </xl>
+            </section>
+            <section id="visit">
                  <h3>Information Visiteur</h3>
                  <p>Qui êtes vous ?</p>
                 <form action="/action_page.php">
